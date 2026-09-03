@@ -1,4 +1,3 @@
-import type { ReactNode } from "react";
 import type { IconType } from "react-icons";
 
 export interface User {
@@ -32,6 +31,6 @@ export interface UserDetail {
 
 export interface UserDetailModel {
   title: string;
-  icon: IconType
+  icon: IconType;
   data: UserDetail[];
 }

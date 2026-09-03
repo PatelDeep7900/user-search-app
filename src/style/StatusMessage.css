@@ -1,0 +1,12 @@
+.status-message-container {
+  width: 100%;
+  flex: 1; /* fills remaining space after SearchBar, not the whole parent */
+  min-height: 0; /* important in flex children to allow shrinking instead of overflowing */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.status-error {
+  color: red;
+}

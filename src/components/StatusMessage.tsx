@@ -1,4 +1,5 @@
 import Loader from "./Loader";
+import "../style/StatusMessage.css";
 
 interface StatusMessageProps {
   type: "loading" | "error";
@@ -9,7 +10,7 @@ function StatusMessage({ type, message }: StatusMessageProps) {
   return (
     <div className="status-message-container">
       {type === "loading" ? (
-        <Loader/>
+        <Loader />
       ) : (
         <p className="status-error">{message ?? "Something went wrong."}</p>
       )}

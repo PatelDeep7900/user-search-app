@@ -10,7 +10,7 @@ function App() {
   const location = useLocation();
   return (
     <div className="app">
-      <Header title="User Search App" onClickBack={() => navigate("/users")} isBackButton={location.pathname != "/users"}/>
+      <Header title="User Search App" onClickBack={() => navigate("/users",{replace:true})} isBackButton={location.pathname.startsWith("/users/") &&  location.pathname !== "/users"}/>
 
       <main className="container">
         <Routes>

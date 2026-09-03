@@ -1,0 +1,70 @@
+.user-dtl-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.user-dtl-card {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  width: 500px;
+}
+
+.card-header {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid var(--border-color);
+  background: #1f2937;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+}
+
+.card-body {
+  padding: 10px;
+}
+.card-body-wraper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.card-body-title {
+  font-size: 20px;
+  font-weight: 700;
+  background: #bcc0c5;
+  padding: 5px;
+  border-radius: 10px;
+  color: #272727;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.title-icon {
+  font-size: 22px;
+}
+
+.card-body-title-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body-title-content .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.content .value {
+  font-size: 16px;
+  color: #2e2e2e;
+}

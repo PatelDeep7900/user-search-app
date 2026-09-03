@@ -1,0 +1,14 @@
+.user-type-list-container {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* belt-and-suspenders, prevents any child from forcing scroll */
+}
+
+.user-list-scroll-area {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+}

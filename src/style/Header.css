@@ -1,0 +1,27 @@
+.header {
+  position: relative;
+  height: 50px;
+  padding: 20px 0;
+  background: #1f2937;
+  display: flex;
+  align-items: center;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.header .header-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-size: 25px;
+  color: white;
+  white-space: nowrap;
+}

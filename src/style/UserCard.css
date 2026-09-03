@@ -1,0 +1,19 @@
+.user-card{
+display: flex;
+flex-direction: column;
+gap: 5px;
+border: 1px solid #ddd;
+border-radius: 8px;
+padding: 12px;
+margin-bottom: 8px;
+text-decoration: none;
+color: inherit;
+}
+
+.user-name{
+    font-weight: 700;
+}
+.user-email{
+    margin: 0;
+    color:#666
+}

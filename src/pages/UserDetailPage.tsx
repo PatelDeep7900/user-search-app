@@ -4,6 +4,7 @@ import { getUserById } from "../api/user";
 import type { User } from "../types/user";
 import StatusMessage from "../components/StatusMessage";
 import { UserDtlModel } from "../model/UserDtlModel";
+import '../style/UserDetailPage.css'
 
 export default function UserDetailPage() {
   const { id } = useParams<{ id: string }>();

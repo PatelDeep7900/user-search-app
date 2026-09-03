@@ -47,9 +47,9 @@ export const UserDtlModel: UserDetailModel[] = [
     ],
   },
 
-   {
+  {
     title: "Company Details",
-    icon : MdBusiness,
+    icon: MdBusiness,
     data: [
       {
         label: "Company",

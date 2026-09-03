@@ -1,5 +1,6 @@
 import type { ChangeEvent } from "react";
 import { MdSearch } from "react-icons/md";
+import "../style/SearchBar.css";
 
 interface SearchBarProp {
   value: string;

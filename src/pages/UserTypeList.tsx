@@ -5,6 +5,7 @@ import UserCard from "../components/UserCard";
 import SearchBar from "../components/SearchBar";
 import { useState } from "react";
 import StatusMessage from "../components/StatusMessage";
+import '../style/UserTypeList.css'
 
 export default function UserTypeList() {
   const { data: users, loading, error } = useFetch<User[]>(USERS_URL);

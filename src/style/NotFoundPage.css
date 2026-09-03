@@ -1,0 +1,42 @@
+.not-found-container{
+flex: 1;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 10px;
+}
+
+.code{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+.page-not-found{
+    font-size: 25px;
+    color: #888;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.go-back-btn{
+    padding: 8px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background: rgb(204, 55, 55);
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.go-back-icon{
+    height: 18px;
+    font-size: 18px;
+}
